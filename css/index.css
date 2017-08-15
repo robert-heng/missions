@@ -1,0 +1,42 @@
+html{
+	color: #bbb;
+	font-size: 14px;
+}
+.title{
+	font-size: 18px;
+	font-weight: bolder;
+	color: #000;
+}
+.subhead{
+	font-size: 16px;
+	color: #999;
+}
+.key{
+	color: #000;
+}
+
+.missions{
+	list-style-type: decimal-leading-zero;
+	font-size: 18px;
+	color: #000;
+}
+.items{
+	font-size: 14px;
+	list-style-position:inside;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #ccc;
+}
+.items li{
+	margin-top: 10px;
+}
+.items .info{
+	display: inline-block;
+	vertical-align: top;
+}
+.items .key{
+	display: inline-block;
+	width: 80px;
+	text-align: justify;
+	text-align-last: justify;
+}
